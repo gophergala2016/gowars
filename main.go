@@ -8,19 +8,15 @@ import (
 	"strings"
 )
 
-var reader *bufio.Reader
 var player Player
 
 func main() {
-
-	reader = bufio.NewReader(os.Stdin)
 
 	Intro()
 
 	fmt.Println("Welcome young padawan. Please tell me your name: (Ex. Rey)")
 
-	fmt.Print("Enter text: ")
-	playerName, _ := reader.ReadString('\n')
+	playerName := GetUserString("Enter text: ")
 
 	player = Player{
 		Name: strings.TrimSpace(playerName),
@@ -34,12 +30,20 @@ func main() {
 	Travel()
 }
 
-func GetUserInput(question string) (selection int) {
+func GetUserString(question string) (selection string){
+	
 	fmt.Println(question)
-
+	reader := bufio.NewReader(os.Stdin)	
+	
 	strSelection, _ := reader.ReadString('\n')
-	strSelection = strings.TrimSpace(strSelection)
-	selection, _ = strconv.Atoi(strSelection)
+	selection = strings.TrimSpace(strSelection)
+	
+	return selection
+}
+
+func GetUserInput(question string) (selection int) {
+		
+	selection, _ = strconv.Atoi(GetUserString(question))
 
 	return selection
 }
