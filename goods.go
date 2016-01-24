@@ -39,13 +39,12 @@ func (s *Sellable) Print() {
 	fmt.Printf("%s : %.2f (%d)\n", s.Name, s.Price, s.Quantity)
 }
 
-func (g *Goods) Add(name string, quantity int) {
+func (g Goods) Add(name string, quantity int) (payment float32) {
 
-	var payment float32
 	for i, item := range g {
 		if item.Name == name {
 			g[i].Quantity += quantity
-			payment = quantity * item.Price
+			payment = float32(quantity) * item.Price
 		}
 	}
 
