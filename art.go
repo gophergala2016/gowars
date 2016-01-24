@@ -10,11 +10,8 @@ import (
 )
 
 func Intro() {
-	//data, _ := ioutil.ReadFile("./intro.txt")
 
-	//fmt.Println(string(data))
-
-	file, _ := os.Open("./intro.txt")
+	file, _ := os.Open("./assets/art/intro.txt")
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
@@ -26,7 +23,7 @@ func Intro() {
 }
 
 func Divider() {
-	data, _ := ioutil.ReadFile("./divider.txt")
+	data, _ := ioutil.ReadFile("./assets/art/divider.txt")
 
 	fmt.Println(string(data))
 }
