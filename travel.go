@@ -8,7 +8,7 @@ import (
 func Travel() {
 
 	for true {
-
+		Divider()
 		player.Print()
 		selection := LocationSelection()
 

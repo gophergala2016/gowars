@@ -15,6 +15,8 @@ func main() {
 
 	reader = bufio.NewReader(os.Stdin)
 
+	Intro()
+
 	fmt.Println("Welcome young padawan. Please tell me your name: (Ex. Rey)")
 
 	fmt.Print("Enter text: ")

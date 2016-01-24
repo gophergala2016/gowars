@@ -4,7 +4,7 @@
 ## On a terminal in a dark room far far away...
 
 > One developer with his laptop, fruit snacks, coke, and love of the galaxy embarked on an adventure. Calling on his exploits with his trusty TI-83 decades ago, he recreated the past in the future.
-The adventure begins with only your wit and your light saber and "... the search for more money."
+The adventure begins with only your wit and your trusty light saber and "... the search for more money."
 
 ----
 ## Visit strange lands
@@ -14,5 +14,9 @@ The adventure begins with only your wit and your light saber and "... the search
 
 ----
 ## Make as much money as you can!
+
+----
+## huge thanks
+* [The Sunny Spot ASCII-Art - The Star Wars ASCII Collection](http://the.sunnyspot.org/asciiart/gallery/starwars.html)
 
 *so obviously this is only a console text game. it was fun to make. The game is fun, GO is fun, so have some fun*
