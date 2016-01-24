@@ -13,8 +13,8 @@ The adventure begins with only your wit and your trusty light saber and "... the
 * Sell your goods at a profit!
 
 ----
-![Startup](https://github.com/gophergala2016/gowars/assets/screenshots/begin.png "Intro")
-![Gameplay](https://github.com/gophergala2016/gowars/assets/screenshots/gameplay.png "Playing")
+![Startup](https://github.com/gophergala2016/gowars/blob/master/assets/screenshots/begin.png "Intro")
+![Gameplay](https://github.com/gophergala2016/gowars/blob/master/assets/screenshots/gameplay.png "Playing")
 
 ----
 ## Make as much money as you can!
